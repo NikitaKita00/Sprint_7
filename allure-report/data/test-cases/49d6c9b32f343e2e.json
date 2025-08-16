@@ -1,0 +1,55 @@
+{
+  "uid" : "49d6c9b32f343e2e",
+  "name" : "test_get_orders_list[params4]",
+  "fullName" : "tests.test_get_orders#test_get_orders_list",
+  "historyId" : "b2abc74252575ff9078b2b932eaa7816",
+  "time" : {
+    "start" : 1755381891697,
+    "stop" : 1755381892485,
+    "duration" : 788
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_orders"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "25184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_get_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'nearestStation': '[\"1\",\"2\"]'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49d6c9b32f343e2e.json",
+  "parameterValues" : [ "{'nearestStation': '[\"1\",\"2\"]'}" ]
+}

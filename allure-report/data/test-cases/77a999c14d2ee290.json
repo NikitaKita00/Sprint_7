@@ -1,0 +1,55 @@
+{
+  "uid" : "77a999c14d2ee290",
+  "name" : "test_create_order_with_different_colors[colors3]",
+  "fullName" : "tests.test_create_order#test_create_order_with_different_colors",
+  "historyId" : "ab76676ecdb9b1f28ba25217744b396d",
+  "time" : {
+    "start" : 1755381873433,
+    "stop" : 1755381873861,
+    "duration" : 428
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_order"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "25184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_create_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "colors",
+    "value" : "[]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77a999c14d2ee290.json",
+  "parameterValues" : [ "[]" ]
+}

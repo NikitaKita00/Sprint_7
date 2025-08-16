@@ -1,0 +1,88 @@
+{
+  "uid" : "2f7aa2afc0d304e",
+  "name" : "test_create_courier_missing_required_field[login]",
+  "fullName" : "tests.test_create_courier.TestCourierCreate#test_create_courier_missing_required_field",
+  "historyId" : "a067adcd2a379fbf99e988e2049ed261",
+  "time" : {
+    "start" : 1755381870708,
+    "stop" : 1755381871121,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCourierCreate",
+    "time" : {
+      "start" : 1755381870707,
+      "stop" : 1755381870707,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCourierCreate::0",
+    "time" : {
+      "start" : 1755381871147,
+      "stop" : 1755381871505,
+      "duration" : 358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_courier"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCourierCreate"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "25184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_create_courier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "missing_field",
+    "value" : "'login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f7aa2afc0d304e.json",
+  "parameterValues" : [ "'login'" ]
+}

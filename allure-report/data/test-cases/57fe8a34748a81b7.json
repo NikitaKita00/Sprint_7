@@ -1,0 +1,91 @@
+{
+  "uid" : "57fe8a34748a81b7",
+  "name" : "test_login_with_wrong_credentials[<lambda>-wrongpassword]",
+  "fullName" : "tests.test_login_courier.TestCourierLogin#test_login_with_wrong_credentials",
+  "historyId" : "40fabe732d0c2a44ac5603f0323188c6",
+  "time" : {
+    "start" : 1755381904290,
+    "stop" : 1755381904817,
+    "duration" : 527
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCourierLogin",
+    "time" : {
+      "start" : 1755381903741,
+      "stop" : 1755381904289,
+      "duration" : 548
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCourierLogin::0",
+    "time" : {
+      "start" : 1755381904821,
+      "stop" : 1755381904821,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_courier"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCourierLogin"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "25184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_login_courier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login_val",
+    "value" : "<function TestCourierLogin.<lambda> at 0x0000016889920860>"
+  }, {
+    "name" : "password_val",
+    "value" : "'wrongpassword'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57fe8a34748a81b7.json",
+  "parameterValues" : [ "<function TestCourierLogin.<lambda> at 0x0000016889920860>", "'wrongpassword'" ]
+}
