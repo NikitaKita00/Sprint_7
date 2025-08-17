@@ -18,7 +18,6 @@ class TestCourierCreate:
         "Попытка создать курьера с уже существующим логином даёт 409 Conflict и сообщение"
     )
     def test_create_duplicate_courier_should_fail(self, created_courier):
-        # Первый вызов уже сделал фикстура created_courier
         response2 = create_courier(created_courier)
         assert response2.status_code == 409
         assert "Этот логин уже используется" in response2.json().get("message", "")
