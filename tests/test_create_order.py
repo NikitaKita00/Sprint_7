@@ -1,33 +1,11 @@
+# tests/test_create_order.py
 import pytest
-import httpx
-import random
-import string
-
-BASE_URL = "https://qa-scooter.praktikum-services.ru/api/v1"
+import allure
+from helpers import generate_order_data, create_order
 
 
-def generate_order_data(color=None):
-    """Генерирует тело запроса для создания заказа, с опциональным цветом"""
-    return {
-        "firstName": "Naruto",
-        "lastName": "Uchiha",
-        "address": "Konoha, 142 apt.",
-        "metroStation": 4,
-        "phone": "+7 800 355 35 35",
-        "rentTime": 5,
-        "deliveryDate": "2020-06-06",
-        "comment": "Saske, come back to Konoha",
-        "color": color if color is not None else [],
-    }
-
-
-def create_order(order_data):
-
-    with httpx.Client() as client:
-        response = client.post(f"{BASE_URL}/orders", json=order_data)
-    return response
-
-
+@allure.title("Создание заказа с разными цветами")
+@allure.description("Проверяется успешное создание заказа с разными вариантами цвета")
 @pytest.mark.parametrize(
     "colors",
     [

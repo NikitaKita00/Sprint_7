@@ -1,7 +1,13 @@
+# tests/test_get_orders.py
 import pytest
-from helpers import get_orders  # Предполагается, что get_orders вынесена в helpers.py
+import allure
+from helpers import get_orders
 
 
+@allure.title("Получение списка заказов с разными параметрами")
+@allure.description(
+    "Проверяется успешное получение списка заказов или корректная обработка ошибок"
+)
 @pytest.mark.parametrize(
     "params",
     [

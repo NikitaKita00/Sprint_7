@@ -1,0 +1,57 @@
+{
+  "uid" : "1e80646782450312",
+  "name" : "Создание заказа с разными цветами",
+  "fullName" : "tests.test_create_order#test_create_order_with_different_colors",
+  "historyId" : "c16ec88d2532bb8a5d78179cf7272f37",
+  "time" : {
+    "start" : 1755449486126,
+    "stop" : 1755449486452,
+    "duration" : 326
+  },
+  "description" : "Проверяется успешное создание заказа с разными вариантами цвета",
+  "descriptionHtml" : "<p>Проверяется успешное создание заказа с разными вариантами цвета</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_order"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "34108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_create_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "colors",
+    "value" : "['GREY']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e80646782450312.json",
+  "parameterValues" : [ "['GREY']" ]
+}
