@@ -1,4 +1,3 @@
-# tests/test_create_order.py
 import pytest
 import allure
 from helpers import generate_order_data, create_order
