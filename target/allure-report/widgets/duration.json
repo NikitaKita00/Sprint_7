@@ -1,0 +1,221 @@
+[ {
+  "uid" : "1ff0838fe3de4756",
+  "name" : "Вход несуществующего пользователя",
+  "time" : {
+    "start" : 1755449526914,
+    "stop" : 1755449527204,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0083e816bcd7473",
+  "name" : "Вход с отсутствующим обязательным полем",
+  "time" : {
+    "start" : 1755449504911,
+    "stop" : 1755449505200,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28e9eb73f716c1ce",
+  "name" : "Создание дубликатного курьера возвращает ошибку",
+  "time" : {
+    "start" : 1755449484206,
+    "stop" : 1755449484518,
+    "duration" : 312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b75064c5c56b7944",
+  "name" : "Успешный вход курьера",
+  "time" : {
+    "start" : 1755449503657,
+    "stop" : 1755449503971,
+    "duration" : 314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97917dade5f34364",
+  "name" : "Создание заказа с разными цветами",
+  "time" : {
+    "start" : 1755449486789,
+    "stop" : 1755449487108,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abce72e63ced8083",
+  "name" : "Получение списка заказов с разными параметрами",
+  "time" : {
+    "start" : 1755449502517,
+    "stop" : 1755449502952,
+    "duration" : 435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e80646782450312",
+  "name" : "Создание заказа с разными цветами",
+  "time" : {
+    "start" : 1755449486126,
+    "stop" : 1755449486452,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "363ecf2c2bf37689",
+  "name" : "Создание курьера с отсутствующим обязательным полем",
+  "time" : {
+    "start" : 1755449485464,
+    "stop" : 1755449485800,
+    "duration" : 336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2e3232e3d2d4a6e",
+  "name" : "Создание заказа с разными цветами",
+  "time" : {
+    "start" : 1755449487111,
+    "stop" : 1755449487458,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbe181a941d0f642",
+  "name" : "Получение списка заказов с разными параметрами",
+  "time" : {
+    "start" : 1755449498920,
+    "stop" : 1755449502513,
+    "duration" : 3593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "424c3ad4ff624d05",
+  "name" : "Получение списка заказов с разными параметрами",
+  "time" : {
+    "start" : 1755449502956,
+    "stop" : 1755449503282,
+    "duration" : 326
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "36daef065d026f9d",
+  "name" : "Создание заказа с разными цветами",
+  "time" : {
+    "start" : 1755449485805,
+    "stop" : 1755449486122,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "291d478ce8ef7a57",
+  "name" : "Вход с неверными учетными данными",
+  "time" : {
+    "start" : 1755449523426,
+    "stop" : 1755449523703,
+    "duration" : 277
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d6347311c3df4cab",
+  "name" : "Получение списка заказов с разными параметрами",
+  "time" : {
+    "start" : 1755449491468,
+    "stop" : 1755449495616,
+    "duration" : 4148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c491196e555c4197",
+  "name" : "Получение списка заказов с разными параметрами",
+  "time" : {
+    "start" : 1755449487462,
+    "stop" : 1755449491462,
+    "duration" : 4000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d0b873158725665",
+  "name" : "Вход с отсутствующим обязательным полем",
+  "time" : {
+    "start" : 1755449506246,
+    "stop" : 1755449522047,
+    "duration" : 15801
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3214fa48d8a7648e",
+  "name" : "Создание заказа с разными цветами",
+  "time" : {
+    "start" : 1755449486456,
+    "stop" : 1755449486786,
+    "duration" : 330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b4a45230dd17f02",
+  "name" : "Вход с неверными учетными данными",
+  "time" : {
+    "start" : 1755449524629,
+    "stop" : 1755449525076,
+    "duration" : 447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c76c877fdc83ab6",
+  "name" : "Вход с неверными учетными данными",
+  "time" : {
+    "start" : 1755449526013,
+    "stop" : 1755449526302,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "998195cdbe34e4d4",
+  "name" : "Получение списка заказов с разными параметрами",
+  "time" : {
+    "start" : 1755449495619,
+    "stop" : 1755449498916,
+    "duration" : 3297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db793011cef12ebf",
+  "name" : "Создание курьера с отсутствующим обязательным полем",
+  "time" : {
+    "start" : 1755449485164,
+    "stop" : 1755449485460,
+    "duration" : 296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0ac9e98716d093c",
+  "name" : "Успешное создание курьера",
+  "time" : {
+    "start" : 1755449483214,
+    "stop" : 1755449483815,
+    "duration" : 601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,277 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "RUMSKLCG1160Z8S",
+    "children" : [ {
+      "name" : "34108-MainThread",
+      "children" : [ {
+        "name" : "Вход несуществующего пользователя",
+        "uid" : "1ff0838fe3de4756",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449526914,
+          "stop" : 1755449527204,
+          "duration" : 290
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход с отсутствующим обязательным полем",
+        "uid" : "e0083e816bcd7473",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449504911,
+          "stop" : 1755449505200,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "parameters" : [ "'login'" ]
+      }, {
+        "name" : "Создание дубликатного курьера возвращает ошибку",
+        "uid" : "28e9eb73f716c1ce",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449484206,
+          "stop" : 1755449484518,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный вход курьера",
+        "uid" : "b75064c5c56b7944",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449503657,
+          "stop" : 1755449503971,
+          "duration" : 314
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа с разными цветами",
+        "uid" : "97917dade5f34364",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449486789,
+          "stop" : 1755449487108,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "parameters" : [ "[]" ]
+      }, {
+        "name" : "Получение списка заказов с разными параметрами",
+        "uid" : "abce72e63ced8083",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449502517,
+          "stop" : 1755449502952,
+          "duration" : 435
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nearestStation': '[\"1\",\"2\"]'}" ]
+      }, {
+        "name" : "Создание заказа с разными цветами",
+        "uid" : "1e80646782450312",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449486126,
+          "stop" : 1755449486452,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "parameters" : [ "['GREY']" ]
+      }, {
+        "name" : "Создание курьера с отсутствующим обязательным полем",
+        "uid" : "363ecf2c2bf37689",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449485464,
+          "stop" : 1755449485800,
+          "duration" : 336
+        },
+        "flaky" : false,
+        "parameters" : [ "'password'" ]
+      }, {
+        "name" : "Создание заказа с разными цветами",
+        "uid" : "c2e3232e3d2d4a6e",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449487111,
+          "stop" : 1755449487458,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "parameters" : [ "None" ]
+      }, {
+        "name" : "Получение списка заказов с разными параметрами",
+        "uid" : "bbe181a941d0f642",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449498920,
+          "stop" : 1755449502513,
+          "duration" : 3593
+        },
+        "flaky" : false,
+        "parameters" : [ "{'page': 1, 'limit': 5}" ]
+      }, {
+        "name" : "Получение списка заказов с разными параметрами",
+        "uid" : "424c3ad4ff624d05",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1755449502956,
+          "stop" : 1755449503282,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "parameters" : [ "{'courierId': 12345}" ]
+      }, {
+        "name" : "Создание заказа с разными цветами",
+        "uid" : "36daef065d026f9d",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449485805,
+          "stop" : 1755449486122,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "parameters" : [ "['BLACK']" ]
+      }, {
+        "name" : "Вход с неверными учетными данными",
+        "uid" : "291d478ce8ef7a57",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1755449523426,
+          "stop" : 1755449523703,
+          "duration" : 277
+        },
+        "flaky" : false,
+        "parameters" : [ "'wronglogin'", "'wrongpassword'" ]
+      }, {
+        "name" : "Получение списка заказов с разными параметрами",
+        "uid" : "d6347311c3df4cab",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449491468,
+          "stop" : 1755449495616,
+          "duration" : 4148
+        },
+        "flaky" : false,
+        "parameters" : [ "{'page': 0}" ]
+      }, {
+        "name" : "Получение списка заказов с разными параметрами",
+        "uid" : "c491196e555c4197",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449487462,
+          "stop" : 1755449491462,
+          "duration" : 4000
+        },
+        "flaky" : false,
+        "parameters" : [ "None" ]
+      }, {
+        "name" : "Вход с отсутствующим обязательным полем",
+        "uid" : "8d0b873158725665",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1755449506246,
+          "stop" : 1755449522047,
+          "duration" : 15801
+        },
+        "flaky" : false,
+        "parameters" : [ "'password'" ]
+      }, {
+        "name" : "Создание заказа с разными цветами",
+        "uid" : "3214fa48d8a7648e",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449486456,
+          "stop" : 1755449486786,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "parameters" : [ "['BLACK', 'GREY']" ]
+      }, {
+        "name" : "Вход с неверными учетными данными",
+        "uid" : "7b4a45230dd17f02",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449524629,
+          "stop" : 1755449525076,
+          "duration" : 447
+        },
+        "flaky" : false,
+        "parameters" : [ "'wronglogin'", "<function TestCourierLogin.<lambda> at 0x000002DE42B60040>" ]
+      }, {
+        "name" : "Вход с неверными учетными данными",
+        "uid" : "2c76c877fdc83ab6",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449526013,
+          "stop" : 1755449526302,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "parameters" : [ "<function TestCourierLogin.<lambda> at 0x000002DE42B60220>", "'wrongpassword'" ]
+      }, {
+        "name" : "Получение списка заказов с разными параметрами",
+        "uid" : "998195cdbe34e4d4",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449495619,
+          "stop" : 1755449498916,
+          "duration" : 3297
+        },
+        "flaky" : false,
+        "parameters" : [ "{'limit': 10}" ]
+      }, {
+        "name" : "Создание курьера с отсутствующим обязательным полем",
+        "uid" : "db793011cef12ebf",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449485164,
+          "stop" : 1755449485460,
+          "duration" : 296
+        },
+        "flaky" : false,
+        "parameters" : [ "'login'" ]
+      }, {
+        "name" : "Успешное создание курьера",
+        "uid" : "f0ac9e98716d093c",
+        "parentUid" : "c16c1df27f2dbfdc9ea72080e3c98eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1755449483214,
+          "stop" : 1755449483815,
+          "duration" : 601
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c16c1df27f2dbfdc9ea72080e3c98eb4"
+    } ],
+    "uid" : "7575ada4a74e2a1478747350d5ba7eed"
+  } ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "db793011cef12ebf",
+  "name" : "Создание курьера с отсутствующим обязательным полем",
+  "fullName" : "tests.test_create_courier.TestCourierCreate#test_create_courier_missing_required_field",
+  "historyId" : "a067adcd2a379fbf99e988e2049ed261",
+  "time" : {
+    "start" : 1755449485164,
+    "stop" : 1755449485460,
+    "duration" : 296
+  },
+  "description" : "Проверка ошибки 400 при отсутствии обязательного поля",
+  "descriptionHtml" : "<p>Проверка ошибки 400 при отсутствии обязательного поля</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "courier_data",
+    "time" : {
+      "start" : 1755449485163,
+      "stop" : 1755449485163,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_courier"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCourierCreate"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "34108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_create_courier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "missing_field",
+    "value" : "'login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db793011cef12ebf.json",
+  "parameterValues" : [ "'login'" ]
+}

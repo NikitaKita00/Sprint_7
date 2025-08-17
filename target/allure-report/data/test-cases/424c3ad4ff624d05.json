@@ -1,0 +1,59 @@
+{
+  "uid" : "424c3ad4ff624d05",
+  "name" : "Получение списка заказов с разными параметрами",
+  "fullName" : "tests.test_get_orders#test_get_orders_list",
+  "historyId" : "d97877a51ce1c7e612252713e62019cf",
+  "time" : {
+    "start" : 1755449502956,
+    "stop" : 1755449503282,
+    "duration" : 326
+  },
+  "description" : "Проверяется успешное получение списка заказов или корректная обработка ошибок",
+  "descriptionHtml" : "<p>Проверяется успешное получение списка заказов или корректная обработка ошибок</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Courier ID 12345 not found, skipping test",
+  "statusTrace" : "('C:\\\\Users\\\\n.manyakin\\\\Desktop\\\\Sprint_7\\\\tests\\\\test_get_orders.py', 27, 'Skipped: Courier ID 12345 not found, skipping test')",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_orders"
+  }, {
+    "name" : "host",
+    "value" : "RUMSKLCG1160Z8S"
+  }, {
+    "name" : "thread",
+    "value" : "34108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_get_orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'courierId': 12345}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "424c3ad4ff624d05.json",
+  "parameterValues" : [ "{'courierId': 12345}" ]
+}
